@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>MuXu</title><link>https://dream-rec.github.io</link><description>这里是4500的个人知识库</description><copyright>MuXu</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://dream-rec.github.io</link></image><lastBuildDate>Fri, 26 Jul 2024 01:51:49 +0000</lastBuildDate><managingEditor>MuXu</managingEditor><ttl>60</ttl><webMaster>MuXu</webMaster><item><title>cloudflare优选ip,proxy</title><link>https://dream-rec.github.io/post/cloudflare-you-xuan-ip%2Cproxy.html</link><description>&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>MuXu</title><link>https://dream-rec.github.io</link><description>这里是4500的个人知识库</description><copyright>MuXu</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://dream-rec.github.io</link></image><lastBuildDate>Fri, 26 Jul 2024 01:57:47 +0000</lastBuildDate><managingEditor>MuXu</managingEditor><ttl>60</ttl><webMaster>MuXu</webMaster><item><title>cloudflare优选ip,proxy</title><link>https://dream-rec.github.io/post/cloudflare-you-xuan-ip%2Cproxy.html</link><description>&#13;
 47.253.86.6:443#Ashburn&#13;
 8.209.117.29:443#Frankfurt&#13;
 47.90.141.204:443#Los Angeles&#13;
@@ -148,11 +148,16 @@ sudo tee /etc/docker/daemon.json &lt;&lt;-'EOF'&#13;
 EOF&#13;
 ```&#13;
 &#13;
+&#13;
 ```&#13;
 sudo service docker restart&#13;
 sudo docker run hello-world&#13;
 sudo docker ps&#13;
+```&#13;
+### 拉取portainer镜像，可视化管理docker&#13;
+```&#13;
 docker pull portainer/portainer-ce&#13;
 docker volume create portainer_data &#13;
 docker run -d --name portainer -p 9000:9000 --restart=always \-v /var/run/docker.sock:/var/run/docker.sock \-v portainer_data:/data  portainer/portainer-ce&#13;
-```。</description><guid isPermaLink="true">https://dream-rec.github.io/post/wsl-debian-docker-an-zhuang.html</guid><pubDate>Fri, 26 Jul 2024 01:37:38 +0000</pubDate></item></channel></rss>
+```&#13;
+。</description><guid isPermaLink="true">https://dream-rec.github.io/post/wsl-debian-docker-an-zhuang.html</guid><pubDate>Fri, 26 Jul 2024 01:37:38 +0000</pubDate></item></channel></rss>

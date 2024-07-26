@@ -49,10 +49,14 @@ sudo tee /etc/docker/daemon.json <<-'EOF'
 EOF
 ```
 
+
 ```
 sudo service docker restart
 sudo docker run hello-world
 sudo docker ps
+```
+### 拉取portainer镜像，可视化管理docker
+```
 docker pull portainer/portainer-ce
 docker volume create portainer_data 
 docker run -d --name portainer -p 9000:9000 --restart=always \-v /var/run/docker.sock:/var/run/docker.sock \-v portainer_data:/data  portainer/portainer-ce
