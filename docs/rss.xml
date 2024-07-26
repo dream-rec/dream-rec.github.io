@@ -1,5 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>MuXu</title><link>https://dream-rec.github.io</link><description>这里是4500的个人知识库</description><copyright>MuXu</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://dream-rec.github.io</link></image><lastBuildDate>Fri, 26 Jul 2024 02:16:01 +0000</lastBuildDate><managingEditor>MuXu</managingEditor><ttl>60</ttl><webMaster>MuXu</webMaster><item><title>LLM-PERSONAL-API密钥</title><link>https://dream-rec.github.io/post/LLM-PERSONAL-API-mi-yao.html</link><description>### GPT3.5&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>MuXu</title><link>https://dream-rec.github.io</link><description>这里是4500的个人知识库</description><copyright>MuXu</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://dream-rec.github.io</link></image><lastBuildDate>Fri, 26 Jul 2024 02:26:46 +0000</lastBuildDate><managingEditor>MuXu</managingEditor><ttl>60</ttl><webMaster>MuXu</webMaster><item><title>test</title><link>https://dream-rec.github.io/post/test.html</link><description>&#13;
+&#13;
+&lt;font face='黑体'&gt;我是黑体字&lt;/font&gt;&#13;
+&lt;font face='微软雅黑'&gt;我是微软雅黑&lt;/font&gt;&#13;
+&lt;font face='STCAIYUN'&gt;我是华文彩云&lt;/font&gt;&#13;
+&lt;font color=red&gt;我是红色&lt;/font&gt;&#13;
+&lt;font color=#008000&gt;我是绿色&lt;/font&gt;&#13;
+&lt;font color=Blue&gt;我是蓝色&lt;/font&gt;&#13;
+&lt;font size=5&gt;我是尺寸&lt;/font&gt;&#13;
+&lt;font face='黑体' color=green size=5&gt;我是黑体，绿色，尺寸为5&lt;/font&gt;&#13;
+&#13;
+&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=yellow&gt;&#13;
+&#13;
+&gt; 背景色yellow&#13;
+&#13;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#13;
+。</description><guid isPermaLink="true">https://dream-rec.github.io/post/test.html</guid><pubDate>Fri, 26 Jul 2024 02:23:39 +0000</pubDate></item><item><title>LLM-PERSONAL-API密钥</title><link>https://dream-rec.github.io/post/LLM-PERSONAL-API-mi-yao.html</link><description>### GPT3.5&#13;
 KEY:![image](https://github.com/user-attachments/assets/5c43a3b3-4ef2-4fd3-8efb-0ad9a282ea48)&#13;
 &#13;
 &#13;
