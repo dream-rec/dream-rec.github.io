@@ -28,7 +28,7 @@
 >     lsb-release
 > ```
 
-###· 配置gpg密钥
+### · 配置gpg密钥
 
 > ```
 > sudo mkdir -m 0755 -p /etc/apt/keyrings
