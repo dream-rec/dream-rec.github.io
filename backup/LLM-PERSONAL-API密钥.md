@@ -1,15 +1,23 @@
-### GPT3.5
-KEY:![image](https://github.com/user-attachments/assets/5c43a3b3-4ef2-4fd3-8efb-0ad9a282ea48)
+### @Openai
+> -  KEY:
+> `sk-SmarEDEq0qrwVSLYFPPdVWHJzKoxGbWVxq0oDpXhZf5bj4RH`
 
+### @Glm4
+> -  KEY:
+> `4cb44db79b100c88aa3915cfd0eb3a40.JsqqZhV4Gr06KAsL`
 
-### GLM4
-KEY:![image](https://github.com/user-attachments/assets/947d922b-2ecc-4613-a1d3-c79937cd3b50)
+### @Qwen
+> -  KEY:
+> `sk-51e8c5ec24c14d83bb96f6ce9f8ac46b`
 
-### Qwen
-KEY:![image](https://github.com/user-attachments/assets/361928b4-fda7-445b-9a8b-8473990a857c)
+### @Moonshot
+> -  KEY:
+> - `sk-9xuAVEjTJ3YNjcmnITaFSPDpP0xKwsajZzakrtsLxyHCFoE0`
 
-### Moonshot
-KEY:![image](https://github.com/user-attachments/assets/a680a261-27b6-409a-ac72-020aa2f7fba0)
+### Deepseek
+> -  KEY:
+> - `sk-24fcf25a5a5e4f269133fb2527958f65`
+
 
 
 
