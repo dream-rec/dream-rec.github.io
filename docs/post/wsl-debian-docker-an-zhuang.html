@@ -10,134 +10,154 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="```
-sudo -i       
-sudo cp /etc/apt/sources.list /etc/apt/sources.list_bak     #备份源
-```
- 
-```
-#中国科技大学
-sudo sed -i 's/deb.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
-#163网易云
-sudo sed -i 's/deb.debian.org/mirrors.163.com/g' /etc/apt/sources.list
-#阿里云
-sudo sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list
-```
+<meta name="description" content="### · 获取root权限
 
-```
-sudo apt-get update
-sudo apt-get install \
-    ca-certificates \
-    curl \
-    gnupg \
-    lsb-release
-```
+> 
+>  ```
+>  sudo -i       
+>  sudo cp /etc/apt/sources.list /etc/apt/sources.list_bak     #备份源
+>  ```
 
-```
-#配置gpg密钥
-sudo mkdir -m 0755 -p /etc/apt/keyrings
+### · 设置国内镜像源
 
-sudo curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
-sudo chmod a+r /etc/apt/keyrings/docker.asc
- 
-echo \
-  'deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://mirrors.ustc.edu.cn/docker-ce/linux/debian \
-  $(. /etc/os-release && echo '$VERSION_CODENAME') stable' | \
-  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-```
-```
-sudo apt-get update
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-sudo service docker start
-sudo mkdir -p /etc/docker
-sudo tee /etc/docker/daemon.json <<-'EOF'
-{
-  'registry-mirrors': ['https://4ymyo4p4.mirror.aliyuncs.com',
-                                   'https://docker.m.daocloud.io',
-        'https://dockerproxy.com',
-        'https://docker.mirrors.ustc.edu.cn',
-        'https://docker.nju.edu.cn']
-}
-EOF
-```
+> ```
+> #中国科技大学
+> sudo sed -i 's/deb.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
+> #163网易云
+> sudo sed -i 's/deb.debian.org/mirrors.163.com/g' /etc/apt/sources.list
+> #阿里云
+> sudo sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list
+> ```
 
+### · 更新配置包
 
-```
-sudo service docker restart
-sudo docker run hello-world
-sudo docker ps
-```
-### 拉取portainer镜像，可视化管理docker
-```
-docker pull portainer/portainer-ce
-docker volume create portainer_data 
-docker run -d --name portainer -p 9000:9000 --restart=always \-v /var/run/docker.sock:/var/run/docker.sock \-v portainer_data:/data  portainer/portainer-ce
-```
+> ```
+> sudo apt-get update
+> sudo apt-get install \
+>     ca-certificates \
+>     curl \
+>     gnupg \
+>     lsb-release
+> ```
+
+###· 配置gpg密钥
+
+> ```
+> sudo mkdir -m 0755 -p /etc/apt/keyrings
+> 
+> sudo curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+> sudo chmod a+r /etc/apt/keyrings/docker.asc
+>  
+> echo \
+>   'deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://mirrors.ustc.edu.cn/docker-ce/linux/debian \
+>   $(. /etc/os-release && echo '$VERSION_CODENAME') stable' | \
+>   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+> ```
+> ```
+> sudo apt-get update
+> sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+> sudo service docker start
+> sudo mkdir -p /etc/docker
+> sudo tee /etc/docker/daemon.json <<-'EOF'
+> {
+>   'registry-mirrors': ['https://4ymyo4p4.mirror.aliyuncs.com',
+>                                    'https://docker.m.daocloud.io',
+>         'https://dockerproxy.com',
+>         'https://docker.mirrors.ustc.edu.cn',
+>         'https://docker.nju.edu.cn']
+> }
+> EOF
+> ```
+> 
+> 
+> ```
+> sudo service docker restart
+> sudo docker run hello-world
+> sudo docker ps
+> ```
+
+### · 拉取portainer镜像，可视化管理docker
+
+> ```
+> docker pull portainer/portainer-ce
+> docker volume create portainer_data 
+> docker run -d --name portainer -p 9000:9000 --restart=always \-v /var/run/docker.sock:/var/run/docker.sock \-v portainer_data:/data  portainer/portainer-ce
+> ```
 。">
 <meta property="og:title" content="wsl-debian-docker安装">
-<meta property="og:description" content="```
-sudo -i       
-sudo cp /etc/apt/sources.list /etc/apt/sources.list_bak     #备份源
-```
- 
-```
-#中国科技大学
-sudo sed -i 's/deb.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
-#163网易云
-sudo sed -i 's/deb.debian.org/mirrors.163.com/g' /etc/apt/sources.list
-#阿里云
-sudo sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list
-```
+<meta property="og:description" content="### · 获取root权限
 
-```
-sudo apt-get update
-sudo apt-get install \
-    ca-certificates \
-    curl \
-    gnupg \
-    lsb-release
-```
+> 
+>  ```
+>  sudo -i       
+>  sudo cp /etc/apt/sources.list /etc/apt/sources.list_bak     #备份源
+>  ```
 
-```
-#配置gpg密钥
-sudo mkdir -m 0755 -p /etc/apt/keyrings
+### · 设置国内镜像源
 
-sudo curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
-sudo chmod a+r /etc/apt/keyrings/docker.asc
- 
-echo \
-  'deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://mirrors.ustc.edu.cn/docker-ce/linux/debian \
-  $(. /etc/os-release && echo '$VERSION_CODENAME') stable' | \
-  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-```
-```
-sudo apt-get update
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-sudo service docker start
-sudo mkdir -p /etc/docker
-sudo tee /etc/docker/daemon.json <<-'EOF'
-{
-  'registry-mirrors': ['https://4ymyo4p4.mirror.aliyuncs.com',
-                                   'https://docker.m.daocloud.io',
-        'https://dockerproxy.com',
-        'https://docker.mirrors.ustc.edu.cn',
-        'https://docker.nju.edu.cn']
-}
-EOF
-```
+> ```
+> #中国科技大学
+> sudo sed -i 's/deb.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
+> #163网易云
+> sudo sed -i 's/deb.debian.org/mirrors.163.com/g' /etc/apt/sources.list
+> #阿里云
+> sudo sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list
+> ```
 
+### · 更新配置包
 
-```
-sudo service docker restart
-sudo docker run hello-world
-sudo docker ps
-```
-### 拉取portainer镜像，可视化管理docker
-```
-docker pull portainer/portainer-ce
-docker volume create portainer_data 
-docker run -d --name portainer -p 9000:9000 --restart=always \-v /var/run/docker.sock:/var/run/docker.sock \-v portainer_data:/data  portainer/portainer-ce
-```
+> ```
+> sudo apt-get update
+> sudo apt-get install \
+>     ca-certificates \
+>     curl \
+>     gnupg \
+>     lsb-release
+> ```
+
+###· 配置gpg密钥
+
+> ```
+> sudo mkdir -m 0755 -p /etc/apt/keyrings
+> 
+> sudo curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+> sudo chmod a+r /etc/apt/keyrings/docker.asc
+>  
+> echo \
+>   'deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://mirrors.ustc.edu.cn/docker-ce/linux/debian \
+>   $(. /etc/os-release && echo '$VERSION_CODENAME') stable' | \
+>   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+> ```
+> ```
+> sudo apt-get update
+> sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+> sudo service docker start
+> sudo mkdir -p /etc/docker
+> sudo tee /etc/docker/daemon.json <<-'EOF'
+> {
+>   'registry-mirrors': ['https://4ymyo4p4.mirror.aliyuncs.com',
+>                                    'https://docker.m.daocloud.io',
+>         'https://dockerproxy.com',
+>         'https://docker.mirrors.ustc.edu.cn',
+>         'https://docker.nju.edu.cn']
+> }
+> EOF
+> ```
+> 
+> 
+> ```
+> sudo service docker restart
+> sudo docker run hello-world
+> sudo docker ps
+> ```
+
+### · 拉取portainer镜像，可视化管理docker
+
+> ```
+> docker pull portainer/portainer-ce
+> docker volume create portainer_data 
+> docker run -d --name portainer -p 9000:9000 --restart=always \-v /var/run/docker.sock:/var/run/docker.sock \-v portainer_data:/data  portainer/portainer-ce
+> ```
 。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://dream-rec.github.io/post/wsl-debian-docker-an-zhuang.html">
@@ -198,9 +218,14 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><pre class="notranslate"><code class="notranslate">sudo -i       
+<div class="markdown-body" id="postBody"><h3>· 获取root权限</h3>
+<blockquote>
+<pre class="notranslate"><code class="notranslate">sudo -i       
 sudo cp /etc/apt/sources.list /etc/apt/sources.list_bak     #备份源
 </code></pre>
+</blockquote>
+<h3>· 设置国内镜像源</h3>
+<blockquote>
 <pre class="notranslate"><code class="notranslate">#中国科技大学
 sudo sed -i 's/deb.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
 #163网易云
@@ -208,6 +233,9 @@ sudo sed -i 's/deb.debian.org/mirrors.163.com/g' /etc/apt/sources.list
 #阿里云
 sudo sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list
 </code></pre>
+</blockquote>
+<h3>· 更新配置包</h3>
+<blockquote>
 <pre class="notranslate"><code class="notranslate">sudo apt-get update
 sudo apt-get install \
     ca-certificates \
@@ -215,8 +243,10 @@ sudo apt-get install \
     gnupg \
     lsb-release
 </code></pre>
-<pre class="notranslate"><code class="notranslate">#配置gpg密钥
-sudo mkdir -m 0755 -p /etc/apt/keyrings
+</blockquote>
+<p>###· 配置gpg密钥</p>
+<blockquote>
+<pre class="notranslate"><code class="notranslate">sudo mkdir -m 0755 -p /etc/apt/keyrings
 
 sudo curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
 sudo chmod a+r /etc/apt/keyrings/docker.asc
@@ -244,11 +274,14 @@ EOF
 sudo docker run hello-world
 sudo docker ps
 </code></pre>
-<h3>拉取portainer镜像，可视化管理docker</h3>
+</blockquote>
+<h3>· 拉取portainer镜像，可视化管理docker</h3>
+<blockquote>
 <pre class="notranslate"><code class="notranslate">docker pull portainer/portainer-ce
 docker volume create portainer_data 
 docker run -d --name portainer -p 9000:9000 --restart=always \-v /var/run/docker.sock:/var/run/docker.sock \-v portainer_data:/data  portainer/portainer-ce
-</code></pre></div>
+</code></pre>
+</blockquote></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
