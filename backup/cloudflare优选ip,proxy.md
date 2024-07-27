@@ -25,11 +25,11 @@ bestproxy.onecf.eu.org
 
 ```
 
-一、Cloudfare官网 
-官方链按:https://dash.cloudfare.com/
- 二、UUID在线生成网站 
-地址:https://uutool.cn/uuid/ 
-三、反代cf域名 
+### 一、Cloudfare官网 
+官方链接: https://dash.cloudfare.com/
+###  二、UUID在线生成网站 
+地址: https://uutool.cn/uuid/ 
+### 三、反代cf域名 
 ```
 edgetunnel.anycast.eu.org 
 cdn-all.xn--b6gac.eu.org 
@@ -37,14 +37,14 @@ cdn.xn--b6gac.eu.org
 cdn-b100.xn--b6gac.eu.org cdn.anycast.eu.org 
 cdn-all.xijingping.link 
 ```
-四、ip地址查询 
-官方链接:https://ipdata.co/ 
-官方链接:https://ip.gs/ 
-五、fofa官网 
-官方链接:https://fofa.info/ 
-六、筛选语句: 
+### 四、ip地址查询 
+官方链接: https://ipdata.co/ 
+官方链接: https://ip.gs/ 
+### 五、fofa官网 
+官方链接: https://fofa.info/ 
+### 六、筛选语句: 
 server=="cloudflare" && port=="443" && country=="US" && city=="Los Angeles"
-七、配合测速脚本
+### 七、配合测速脚本
 **CloudflareST
 IPDB#便捷获取**
 
@@ -93,6 +93,6 @@ let PT13 = '2096'
 
 ### 精选CF,PROXY-IP
 
-- • Best cf = bestcf.onecf.eu.org
-- • Best proxy = bestproxy.onecf.eu.org
-- • Best 9proxy = my-telegram-is-herocore.onecf.eu.org
+- Best cf = bestcf.onecf.eu.org
+- Best proxy = bestproxy.onecf.eu.org
+- Best 9proxy = my-telegram-is-herocore.onecf.eu.org
