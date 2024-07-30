@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>MuXu</title><link>https://ashe.lmxxx.us.kg</link><description>理想的生活需要一点热爱和心动(*๓´╰╯`๓)♡</description><copyright>MuXu</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://s2.loli.net/2024/07/28/crbtdWJFkvjL8XO.png</url><title>avatar</title><link>https://ashe.lmxxx.us.kg</link></image><lastBuildDate>Sun, 28 Jul 2024 09:34:43 +0000</lastBuildDate><managingEditor>MuXu</managingEditor><ttl>60</ttl><webMaster>MuXu</webMaster><item><title>test</title><link>https://ashe.lmxxx.us.kg/post/test.html</link><description>&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>MuXu</title><link>https://ashe.lmxxx.us.kg</link><description>理想的生活需要一点热爱和心动(*๓´╰╯`๓)♡</description><copyright>MuXu</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://s2.loli.net/2024/07/28/crbtdWJFkvjL8XO.png</url><title>avatar</title><link>https://ashe.lmxxx.us.kg</link></image><lastBuildDate>Tue, 30 Jul 2024 02:30:35 +0000</lastBuildDate><managingEditor>MuXu</managingEditor><ttl>60</ttl><webMaster>MuXu</webMaster><item><title>test</title><link>https://ashe.lmxxx.us.kg/post/test.html</link><description>&#13;
 &gt; [!NOTE]&#13;
 &gt; Useful information that users should know, even when skimming content.&#13;
 &#13;
@@ -17,6 +17,10 @@
 。</description><guid isPermaLink="true">https://ashe.lmxxx.us.kg/post/test.html</guid><pubDate>Fri, 26 Jul 2024 02:23:39 +0000</pubDate></item><item><title>LLM-PERSONAL-API密钥</title><link>https://ashe.lmxxx.us.kg/post/LLM-PERSONAL-API-mi-yao.html</link><description>### Openai&#13;
 &gt; -  KEY:&#13;
 &gt; `sk-SmarEDEq0qrwVSLYFPPdVWHJzKoxGbWVxq0oDpXhZf5bj4RH`&#13;
+&#13;
+- 转发Host1: https://api.chatanywhere.tech (国内中转，延时更低，host1和host2二选一)&#13;
+- 转发Host2: https://api.chatanywhere.com.cn (国内中转，延时更低，host1和host2二选一)&#13;
+- 转发Host3: https://api.chatanywhere.cn (国外使用,国内需要全局代理)&#13;
 &#13;
 ### Glm4&#13;
 &gt; -  KEY:&#13;
