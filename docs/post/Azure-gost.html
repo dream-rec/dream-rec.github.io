@@ -36,67 +36,68 @@ sudo cat log-path
 
 ---
 
-### config.yaml样例
-```
-port: 7890
-socks-port: 7891
-redir-port: 7892
-mixed-port: 7893
-ipv6: true
-allow-lan: true
-mode: Rule
-log-level: silent
-external-controller: '127.0.0.1:55769'
-secret: ''
-tun:
-  enable: true
-  stack: system
-  dns-hijack:
-    - tcp://8.8.8.8:53
-    - udp://8.8.8.8:53
-dns:
-  enable: true
-  ipv6: true
-  listen: 0.0.0.0:53
-  default-nameserver:
-    - 114.114.114.114
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  nameserver:
-    - 114.114.114.114
-    - 223.5.5.5
-  fallback:
-    - 114.114.114.114
-
-proxies:
-  - name: 'azure'
-    type: http
-    server: yourdomain
-    port: 443
-    username: name
-    password: 'pwd'
-    tls: true
-    skip-cert-verify: true
-
-proxy-groups:
-  - name: 'Proxy'
-    type: select
-    proxies:
-      - azure
-
-rules:
-  - DOMAIN-SUFFIX,local,DIRECT
-  - IP-CIDR,127.0.0.0/8,DIRECT
-  - IP-CIDR,172.16.0.0/12,DIRECT
-  - IP-CIDR,192.168.0.0/16,DIRECT
-  - IP-CIDR,10.0.0.0/8,DIRECT
-
-  - DOMAIN-SUFFIX,deepl.com,DIRECT
-
-  - GEOIP,CN,DIRECT
-  - MATCH,Proxy
-
-```
+> [!TIP]
+> ### config.yaml样例
+> ```
+> port: 7890
+> socks-port: 7891
+> redir-port: 7892
+> mixed-port: 7893
+> ipv6: true
+> allow-lan: true
+> mode: Rule
+> log-level: silent
+> external-controller: '127.0.0.1:55769'
+> secret: ''
+> tun:
+>  enable: true
+>  stack: system
+>   dns-hijack:
+>     - tcp://8.8.8.8:53
+>     - udp://8.8.8.8:53
+> dns:
+>   enable: true
+>   ipv6: true
+>   listen: 0.0.0.0:53
+>   default-nameserver:
+>     - 114.114.114.114
+>   enhanced-mode: fake-ip
+>   fake-ip-range: 198.18.0.1/16
+>   nameserver:
+>     - 114.114.114.114
+>     - 223.5.5.5
+>   fallback:
+>     - 114.114.114.114
+> 
+> proxies:
+>   - name: 'azure'
+>     type: http
+>     server: yourdomain
+>     port: 443
+>     username: name
+>     password: 'pwd'
+>     tls: true
+>     skip-cert-verify: true
+> 
+> proxy-groups:
+>   - name: 'Proxy'
+>     type: select
+>     proxies:
+>       - azure
+> 
+> rules:
+>   - DOMAIN-SUFFIX,local,DIRECT
+>   - IP-CIDR,127.0.0.0/8,DIRECT
+>   - IP-CIDR,172.16.0.0/12,DIRECT
+>   - IP-CIDR,192.168.0.0/16,DIRECT
+>   - IP-CIDR,10.0.0.0/8,DIRECT
+> 
+>   - DOMAIN-SUFFIX,deepl.com,DIRECT
+> 
+>   - GEOIP,CN,DIRECT
+>   - MATCH,Proxy
+> 
+> ```
 
 。">
 <meta property="og:title" content="Azure-gost">
@@ -126,67 +127,68 @@ sudo cat log-path
 
 ---
 
-### config.yaml样例
-```
-port: 7890
-socks-port: 7891
-redir-port: 7892
-mixed-port: 7893
-ipv6: true
-allow-lan: true
-mode: Rule
-log-level: silent
-external-controller: '127.0.0.1:55769'
-secret: ''
-tun:
-  enable: true
-  stack: system
-  dns-hijack:
-    - tcp://8.8.8.8:53
-    - udp://8.8.8.8:53
-dns:
-  enable: true
-  ipv6: true
-  listen: 0.0.0.0:53
-  default-nameserver:
-    - 114.114.114.114
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  nameserver:
-    - 114.114.114.114
-    - 223.5.5.5
-  fallback:
-    - 114.114.114.114
-
-proxies:
-  - name: 'azure'
-    type: http
-    server: yourdomain
-    port: 443
-    username: name
-    password: 'pwd'
-    tls: true
-    skip-cert-verify: true
-
-proxy-groups:
-  - name: 'Proxy'
-    type: select
-    proxies:
-      - azure
-
-rules:
-  - DOMAIN-SUFFIX,local,DIRECT
-  - IP-CIDR,127.0.0.0/8,DIRECT
-  - IP-CIDR,172.16.0.0/12,DIRECT
-  - IP-CIDR,192.168.0.0/16,DIRECT
-  - IP-CIDR,10.0.0.0/8,DIRECT
-
-  - DOMAIN-SUFFIX,deepl.com,DIRECT
-
-  - GEOIP,CN,DIRECT
-  - MATCH,Proxy
-
-```
+> [!TIP]
+> ### config.yaml样例
+> ```
+> port: 7890
+> socks-port: 7891
+> redir-port: 7892
+> mixed-port: 7893
+> ipv6: true
+> allow-lan: true
+> mode: Rule
+> log-level: silent
+> external-controller: '127.0.0.1:55769'
+> secret: ''
+> tun:
+>  enable: true
+>  stack: system
+>   dns-hijack:
+>     - tcp://8.8.8.8:53
+>     - udp://8.8.8.8:53
+> dns:
+>   enable: true
+>   ipv6: true
+>   listen: 0.0.0.0:53
+>   default-nameserver:
+>     - 114.114.114.114
+>   enhanced-mode: fake-ip
+>   fake-ip-range: 198.18.0.1/16
+>   nameserver:
+>     - 114.114.114.114
+>     - 223.5.5.5
+>   fallback:
+>     - 114.114.114.114
+> 
+> proxies:
+>   - name: 'azure'
+>     type: http
+>     server: yourdomain
+>     port: 443
+>     username: name
+>     password: 'pwd'
+>     tls: true
+>     skip-cert-verify: true
+> 
+> proxy-groups:
+>   - name: 'Proxy'
+>     type: select
+>     proxies:
+>       - azure
+> 
+> rules:
+>   - DOMAIN-SUFFIX,local,DIRECT
+>   - IP-CIDR,127.0.0.0/8,DIRECT
+>   - IP-CIDR,172.16.0.0/12,DIRECT
+>   - IP-CIDR,192.168.0.0/16,DIRECT
+>   - IP-CIDR,10.0.0.0/8,DIRECT
+> 
+>   - DOMAIN-SUFFIX,deepl.com,DIRECT
+> 
+>   - GEOIP,CN,DIRECT
+>   - MATCH,Proxy
+> 
+> ```
 
 。">
 <meta property="og:type" content="article">
@@ -218,7 +220,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     .postTitle{font-size:24px;}
 }
 </style>
-
+<style>.markdown-alert{padding:0.5rem 1rem;margin-bottom:1rem;border-left:.25em solid var(--borderColor-default,var(--color-border-default));}.markdown-alert .markdown-alert-title {display:flex;font-weight:var(--base-text-weight-medium,500);align-items:center;line-height:1;}.markdown-alert>:first-child {margin-top:0;}.markdown-alert>:last-child {margin-bottom:0;}</style><style>.markdown-alert.markdown-alert-tip {border-left-color:var(--borderColor-success-emphasis, var(--color-success-emphasis));background-color:var(--color-success-subtle);}.markdown-alert.markdown-alert-tip .markdown-alert-title {color: var(--fgColor-success,var(--color-success-fg));}</style>
 
 
 
@@ -269,6 +271,7 @@ sudo cat log-path
 <h3>7. 测试代理是否连接成功</h3>
 <p><code class="notranslate">curl -v "https://www.google.com" --proxy "https://DOMAIN" --proxy-user 'USER:PASS'</code></p>
 <hr>
+<div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg class="octicon octicon-light-bulb mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg>Tip</p>
 <h3>config.yaml样例</h3>
 <pre class="notranslate"><code class="notranslate">port: 7890
 socks-port: 7891
@@ -281,8 +284,8 @@ log-level: silent
 external-controller: "127.0.0.1:55769"
 secret: ""
 tun:
-  enable: true
-  stack: system
+ enable: true
+ stack: system
   dns-hijack:
     - tcp://8.8.8.8:53
     - udp://8.8.8.8:53
@@ -328,7 +331,8 @@ rules:
   - GEOIP,CN,DIRECT
   - MATCH,Proxy
 
-</code></pre></div>
+</code></pre>
+</div></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
