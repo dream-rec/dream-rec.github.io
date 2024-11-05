@@ -20,7 +20,7 @@
 
 ### Deepseek
 > -  KEY:
-> - `sk-24fcf25a5a5e4f269133fb2527958f65`
+> - `sk-35e6d4e8de5a4b8fb22f360102af3f93`
 
 
 
