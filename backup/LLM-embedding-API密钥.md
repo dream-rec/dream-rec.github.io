@@ -20,9 +20,12 @@
 
 ### Deepseek
 > -  KEY:
-> - `sk-35e6d4e8de5a4b8fb22f360102af3f93`
+> - `sk-9d099dfde85844d09800f375afbd3d42`
 
-
+### siliconflow.cn(Embedding)
+model: BAAI/bge-m3
+> -  KEY:
+> - `sk-tdixloezkdiinoxonbzvwxhuhwolwwrzcbsrezdfdokacout`
 
 
 
