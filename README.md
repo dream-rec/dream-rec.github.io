@@ -1,4 +1,4 @@
-# MuXu :link: https://ashe.lmxxx.us.kg 
+# MuXu :link: https://sine.aice-aec.com 
 ### :page_facing_up: [6](https://sine.aice-aec.com/tag.html) 
 ### :speech_balloon: 0 
 ### :hibiscus: 7118 
