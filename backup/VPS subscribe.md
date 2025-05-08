@@ -3,14 +3,10 @@
 ### Vless
 `vless://a8cfd5a0-10d0-4529-bcdc-cc2dd1a226a5@52.225.233.141:29232?type=tcp&security=none#vless+vision|Xpiw.love@xray.com`
 ### CF-node
-################################################################
-v2ray
----------------------------------------------------------------
-vless://b183110c-5b46-4884-aa11-ec49354eab66@myvless-work.lmx450028818.workers.dev:443?encryption=none&security=tls&sni=myvless-work.lmx450028818.workers.dev&fp=randomized&type=ws&host=myvless-work.lmx450028818.workers.dev&path=%2F%3Fed%3D2048#myvless-work.lmx450028818.workers.dev
----------------------------------------------------------------
-################################################################
-clash-meta
----------------------------------------------------------------
+**v2ray**
+`vless://b183110c-5b46-4884-aa11-ec49354eab66@myvless-work.lmx450028818.workers.dev:443?encryption=none&security=tls&sni=myvless-work.lmx450028818.workers.dev&fp=randomized&type=ws&host=myvless-work.lmx450028818.workers.dev&path=%2F%3Fed%3D2048#myvless-work.lmx450028818.workers.dev`
+**clash-meta**
+```
 - type: vless
   name: myvless-work.lmx450028818.workers.dev
   server: myvless-work.lmx450028818.workers.dev
@@ -25,8 +21,7 @@ clash-meta
     path: "/?ed=2048"
     headers:
       host: myvless-work.lmx450028818.workers.dev
----------------------------------------------------------------
-################################################################
+```
 
 
 ### Link
