@@ -25,7 +25,9 @@
 
 
 ### Link
-**Clash**
+_**clash 分两种内核，一种meta原生支持vless，另外一种premium，不支持vless，且yaml语法有更改，互不兼容。
+两种方式：更改内核或者下载clash verge。**_
+**Clash(clash for windows默认是premium内核，只适用于meta内核)**
 
 - 短链：http://dreammx.dpdns.org/c/czeZND1
 - 长链：https://sublink-worker.lmx450028818.workers.dev/clash?config=vless%3A%2F%2Fa8cfd5a0-10d0-4529-bcdc-cc2dd1a226a5%4052.225.233.141%3A29232%3Ftype%3Dtcp%26security%3Dnone%23vless%2Bvision%7CXpiw.love%40xray.com&ua=&selectedRules=%5B%5D&customRules=%5B%5D
