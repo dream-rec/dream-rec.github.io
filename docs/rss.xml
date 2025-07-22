@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>MuXu</title><link>https://sine.aice-aec.com</link><description>理想的生活需要一点热爱和心动(*๓´╰╯`๓)♡</description><copyright>MuXu</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://s2.loli.net/2024/08/17/HLSFqAbcxruBTZ9.png</url><title>avatar</title><link>https://sine.aice-aec.com</link></image><lastBuildDate>Fri, 23 May 2025 03:38:13 +0000</lastBuildDate><managingEditor>MuXu</managingEditor><ttl>60</ttl><webMaster>MuXu</webMaster><item><title>VPS subscribe</title><link>https://sine.aice-aec.com/post/VPS%20subscribe.html</link><description>### Vmess
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>MuXu</title><link>https://sine.aice-aec.com</link><description>理想的生活需要一点热爱和心动(*๓´╰╯`๓)♡</description><copyright>MuXu</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://s2.loli.net/2024/08/17/HLSFqAbcxruBTZ9.png</url><title>avatar</title><link>https://sine.aice-aec.com</link></image><lastBuildDate>Tue, 22 Jul 2025 04:14:35 +0000</lastBuildDate><managingEditor>MuXu</managingEditor><ttl>60</ttl><webMaster>MuXu</webMaster><item><title>VPS subscribe (Azure) 已过期</title><link>https://sine.aice-aec.com/post/VPS%20subscribe%20%28Azure%29%20-yi-guo-qi.html</link><description>### Vmess
 `vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJ2bWVzcyt0bHN8N1FpeC5sb3ZlQHhyYXkuY29tIiwKICAiYWRkIjogIjUyLjIyNS4yMzMuMTQxIiwKICAicG9ydCI6IDU4NDk1LAogICJpZCI6ICIzMTNjM2ZiZC1iYzA4LTQ2MjUtODM0OC1lZTc4ODczYmQ1Y2IiLAogICJhaWQiOiAwLAogICJuZXQiOiAid3MiLAogICJ0eXBlIjogIm5vbmUiLAogICJob3N0IjogIiIsCiAgInBhdGgiOiAiLzMxM2MzZmJkIiwKICAidGxzIjogIm5vbmUiCn0=`
 ### Vless
 `vless://a8cfd5a0-10d0-4529-bcdc-cc2dd1a226a5@52.225.233.141:29232?type=ws&amp;security=none&amp;path=%2Fa8cfd5a0#vless+vision|Xpiw.love@xray.com`
@@ -26,7 +26,7 @@
 
 
 ### Link
-_**clash 分两种内核，一种meta原生支持vless，另外一种premium，不支持vless，且yaml语法有更改，互不兼容。</description><guid isPermaLink="true">https://sine.aice-aec.com/post/VPS%20subscribe.html</guid><pubDate>Thu, 08 May 2025 08:00:17 +0000</pubDate></item><item><title>Server U-P</title><link>https://sine.aice-aec.com/post/Server%20U-P.html</link><description>### **Host School**&#13;
+_**clash 分两种内核，一种meta原生支持vless，另外一种premium，不支持vless，且yaml语法有更改，互不兼容。</description><guid isPermaLink="true">https://sine.aice-aec.com/post/VPS%20subscribe%20%28Azure%29%20-yi-guo-qi.html</guid><pubDate>Thu, 08 May 2025 08:00:17 +0000</pubDate></item><item><title>Server U-P</title><link>https://sine.aice-aec.com/post/Server%20U-P.html</link><description>### **Host School**&#13;
 &#13;
 &gt; HostName 10.68.1.50&#13;
 &gt; Port 10022&#13;
