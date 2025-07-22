@@ -1,5 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>MuXu</title><link>https://sine.aice-aec.com</link><description>理想的生活需要一点热爱和心动(*๓´╰╯`๓)♡</description><copyright>MuXu</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://s2.loli.net/2024/08/17/HLSFqAbcxruBTZ9.png</url><title>avatar</title><link>https://sine.aice-aec.com</link></image><lastBuildDate>Tue, 22 Jul 2025 04:14:35 +0000</lastBuildDate><managingEditor>MuXu</managingEditor><ttl>60</ttl><webMaster>MuXu</webMaster><item><title>VPS subscribe (Azure) 已过期</title><link>https://sine.aice-aec.com/post/VPS%20subscribe%20%28Azure%29%20-yi-guo-qi.html</link><description>### Vmess
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>MuXu</title><link>https://sine.aice-aec.com</link><description>理想的生活需要一点热爱和心动(*๓´╰╯`๓)♡</description><copyright>MuXu</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://s2.loli.net/2024/08/17/HLSFqAbcxruBTZ9.png</url><title>avatar</title><link>https://sine.aice-aec.com</link></image><lastBuildDate>Tue, 22 Jul 2025 04:21:52 +0000</lastBuildDate><managingEditor>MuXu</managingEditor><ttl>60</ttl><webMaster>MuXu</webMaster><item><title>VPS Subscribe (AWS)</title><link>https://sine.aice-aec.com/post/VPS%20Subscribe%20%28AWS%29.html</link><description>### Vmess
+`vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJhd3MyfEdweWEubG92ZUB4cmF5LmNvbSIsCiAgImFkZCI6ICIzLjE0NC40NC4yMSIsCiAgInBvcnQiOiAyNjcxMSwKICAiaWQiOiAiNGJjZjVkMjYtYzgwZS00NDc0LTgxNWUtZDIzOThmYzhiODc4IiwKICAiYWlkIjogMCwKICAibmV0IjogIndzIiwKICAidHlwZSI6ICJub25lIiwKICAiaG9zdCI6ICIiLAogICJwYXRoIjogIi80YmNmNWQyNi1jODBlLTQ0NzQtODE1ZS1kMjM5OGZjOGI4NzgiLAogICJ0bHMiOiAibm9uZSIKfQ==`
+### Vless
+`vless://6d82e7f5-19ed-4a1e-d9ff-0b9b589015ef@3.144.44.21:24162?type=ws&amp;security=none&amp;path=%2F6d82e7f5-19ed-4a1e-d9ff-0b9b589015ef#aws1|03Du.love@xray.com`
+### CF-node
+**v2ray-CF WORKER**
+`vless://b183110c-5b46-4884-aa11-ec49354eab66@myvless-work.lmx450028818.workers.dev:443?encryption=none&amp;security=tls&amp;sni=myvless-work.lmx450028818.workers.dev&amp;fp=randomized&amp;type=ws&amp;host=myvless-work.lmx450028818.workers.dev&amp;path=%2F%3Fed%3D2048#myvless-work.lmx450028818.workers.dev`
+**clash-meta**
+```
+- type: vless
+  name: myvless-work.lmx450028818.workers.dev
+  server: myvless-work.lmx450028818.workers.dev
+  port: 443
+  uuid: b183110c-5b46-4884-aa11-ec49354eab66
+  network: ws
+  tls: true
+  udp: false
+  sni: myvless-work.lmx450028818.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: '/?ed=2048'
+    headers:
+      host: myvless-work.lmx450028818.workers.dev
+```
+
+
+### Link
+_**clash 分两种内核，一种meta原生支持vless，另外一种premium，不支持vless，且yaml语法有更改，互不兼容。</description><guid isPermaLink="true">https://sine.aice-aec.com/post/VPS%20Subscribe%20%28AWS%29.html</guid><pubDate>Tue, 22 Jul 2025 04:21:29 +0000</pubDate></item><item><title>VPS subscribe (Azure) 已过期</title><link>https://sine.aice-aec.com/post/VPS%20subscribe%20%28Azure%29%20-yi-guo-qi.html</link><description>### Vmess
 `vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJ2bWVzcyt0bHN8N1FpeC5sb3ZlQHhyYXkuY29tIiwKICAiYWRkIjogIjUyLjIyNS4yMzMuMTQxIiwKICAicG9ydCI6IDU4NDk1LAogICJpZCI6ICIzMTNjM2ZiZC1iYzA4LTQ2MjUtODM0OC1lZTc4ODczYmQ1Y2IiLAogICJhaWQiOiAwLAogICJuZXQiOiAid3MiLAogICJ0eXBlIjogIm5vbmUiLAogICJob3N0IjogIiIsCiAgInBhdGgiOiAiLzMxM2MzZmJkIiwKICAidGxzIjogIm5vbmUiCn0=`
 ### Vless
 `vless://a8cfd5a0-10d0-4529-bcdc-cc2dd1a226a5@52.225.233.141:29232?type=ws&amp;security=none&amp;path=%2Fa8cfd5a0#vless+vision|Xpiw.love@xray.com`
