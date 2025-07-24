@@ -1,5 +1,5 @@
 ### Vmess
-`vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJhd3MyfEdweWEubG92ZUB4cmF5LmNvbSIsCiAgImFkZCI6ICIzLjE0NC40NC4yMSIsCiAgInBvcnQiOiAyNjcxMSwKICAiaWQiOiAiNGJjZjVkMjYtYzgwZS00NDc0LTgxNWUtZDIzOThmYzhiODc4IiwKICAiYWlkIjogMCwKICAibmV0IjogIndzIiwKICAidHlwZSI6ICJub25lIiwKICAiaG9zdCI6ICIiLAogICJwYXRoIjogIi80YmNmNWQyNi1jODBlLTQ0NzQtODE1ZS1kMjM5OGZjOGI4NzgiLAogICJ0bHMiOiAibm9uZSIKfQ==`
+`vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJhd3MyfGhNMTAubG92ZUB4cmF5LmNvbSIsCiAgImFkZCI6ICIzLjE0NC40NC4yMSIsCiAgInBvcnQiOiAzNjA4NiwKICAiaWQiOiAiOTQ1Mzg1YTgtZjI5Yy00NjVkLWI5MWMtMWQ1ZDJlMjA4YTFjIiwKICAiYWlkIjogMCwKICAibmV0IjogIndzIiwKICAidHlwZSI6ICJub25lIiwKICAiaG9zdCI6ICIiLAogICJwYXRoIjogIi85NDUzODVhOC1mMjljLTQ2NWQtYjkxYy0xZDVkMmUyMDhhMWMiLAogICJ0bHMiOiAibm9uZSIKfQ==`
 ### Vless
 `vless://6d82e7f5-19ed-4a1e-d9ff-0b9b589015ef@3.144.44.21:24162?type=ws&security=none&path=%2F6d82e7f5-19ed-4a1e-d9ff-0b9b589015ef#aws1|03Du.love@xray.com`
 ### CF-node
@@ -31,7 +31,8 @@ _**clash 分两种内核，一种meta原生支持vless，另外一种premium，�
 **Clash-vless**
 
 - 短链：https://dreammx.dpdns.org/c/SijWx0q
-- 长链：https://dreammx.dpdns.org/clash?config=vless%3A%2F%2F6d82e7f5-19ed-4a1e-d9ff-0b9b589015ef%403.144.44.21%3A24162%3Ftype%3Dws%26security%3Dnone%26path%3D%252F6d82e7f5-19ed-4a1e-d9ff-0b9b589015ef%23aws1%7C03Du.love%40xray.com&ua=&selectedRules=%5B%5D&customRules=%5B%5D
+- 长链-1 M内核：https://dreammx.dpdns.org/clash?config=vless%3A%2F%2F6d82e7f5-19ed-4a1e-d9ff-0b9b589015ef%403.144.44.21%3A24162%3Ftype%3Dws%26security%3Dnone%26path%3D%252F6d82e7f5-19ed-4a1e-d9ff-0b9b589015ef%23aws1%7C03Du.love%40xray.com&ua=&selectedRules=%5B%5D&customRules=%5B%5D
+- 长链-2 P内核：https://lmxxx.dpdns.org/sub?target=clash&url=vmess%3A%2F%2FewogICJ2IjogIjIiLAogICJwcyI6ICJhd3MyfGhNMTAubG92ZUB4cmF5LmNvbSIsCiAgImFkZCI6ICIzLjE0NC40NC4yMSIsCiAgInBvcnQiOiAzNjA4NiwKICAiaWQiOiAiOTQ1Mzg1YTgtZjI5Yy00NjVkLWI5MWMtMWQ1ZDJlMjA4YTFjIiwKICAiYWlkIjogMCwKICAibmV0IjogIndzIiwKICAidHlwZSI6ICJub25lIiwKICAiaG9zdCI6ICIiLAogICJwYXRoIjogIi85NDUzODVhOC1mMjljLTQ2NWQtYjkxYy0xZDVkMmUyMDhhMWMiLAogICJ0bHMiOiAibm9uZSIKfQ%3D%3D&insert=false
 
  **Quantumult X**
 
