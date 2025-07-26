@@ -1,5 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>MuXu</title><link>https://sine.aice-aec.com</link><description>理想的生活需要一点热爱和心动(*๓´╰╯`๓)♡</description><copyright>MuXu</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://s2.loli.net/2024/08/17/HLSFqAbcxruBTZ9.png</url><title>avatar</title><link>https://sine.aice-aec.com</link></image><lastBuildDate>Fri, 25 Jul 2025 07:52:00 +0000</lastBuildDate><managingEditor>MuXu</managingEditor><ttl>60</ttl><webMaster>MuXu</webMaster><item><title>VPS Subscribe (AWS)</title><link>https://sine.aice-aec.com/post/VPS%20Subscribe%20%28AWS%29.html</link><description>### Vmess
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>MuXu</title><link>https://sine.aice-aec.com</link><description>理想的生活需要一点热爱和心动(*๓´╰╯`๓)♡</description><copyright>MuXu</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://s2.loli.net/2024/08/17/HLSFqAbcxruBTZ9.png</url><title>avatar</title><link>https://sine.aice-aec.com</link></image><lastBuildDate>Sat, 26 Jul 2025 08:34:23 +0000</lastBuildDate><managingEditor>MuXu</managingEditor><ttl>60</ttl><webMaster>MuXu</webMaster><item><title>X-UI (ws+tls) 域名加密防被封ip-自动签证-操作说明</title><link>https://sine.aice-aec.com/post/X-UI%20%28ws%2Btls%29%20-yu-ming-jia-mi-fang-bei-feng-ip--zi-dong-qian-zheng---cao-zuo-shuo-ming.html</link><description># 使用 x-ui 搭建 Trojan(可替换其他类型) WS TLS 节点
+
+**发布时间**: May 27, 2025
+
+## 🌐 日志：使用 x-ui 搭建 Trojan TLS 节点（含域名证书配置）
+
+**面板工具**：[https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh]
+**目标域名**：`us.example.com`
+
+---
+
+## 🧩 第一步：更新系统、安装证书工具
+
+```bash
+sudo apt update
+sudo apt install certbot python3-certbot-nginx -y
+```
+
+&gt; 说明：`certbot` 用于签发 Let's Encrypt 证书，`python3-certbot-nginx` 插件让它能自动配置 Nginx。</description><guid isPermaLink="true">https://sine.aice-aec.com/post/X-UI%20%28ws%2Btls%29%20-yu-ming-jia-mi-fang-bei-feng-ip--zi-dong-qian-zheng---cao-zuo-shuo-ming.html</guid><pubDate>Sat, 26 Jul 2025 08:33:52 +0000</pubDate></item><item><title>VPS Subscribe (AWS)</title><link>https://sine.aice-aec.com/post/VPS%20Subscribe%20%28AWS%29.html</link><description>### Vmess
 `vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJhd3MyfG9jek0ubG92ZUB4cmF5LmNvbSIsCiAgImFkZCI6ICJtdXh1LmRwZG5zLm9yZyIsCiAgInBvcnQiOiAyMDUzLAogICJpZCI6ICJlZTcxY2FlOS1jMTc5LTRkYWEtZjdkMi1iMDA5NTRhMjVjNTgiLAogICJhaWQiOiAwLAogICJuZXQiOiAid3MiLAogICJ0eXBlIjogIm5vbmUiLAogICJob3N0IjogIm11eHUuZHBkbnMub3JnIiwKICAicGF0aCI6ICIvd3MvIiwKICAidGxzIjogInRscyIKfQ==`
 ### Vless
 `vless://6d82e7f5-19ed-4a1e-d9ff-0b9b589015ef@3.144.44.21:24162?type=ws&amp;security=none&amp;path=%2F6d82e7f5-19ed-4a1e-d9ff-0b9b589015ef#aws1|03Du.love@xray.com`
