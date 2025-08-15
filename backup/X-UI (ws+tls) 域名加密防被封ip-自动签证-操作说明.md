@@ -107,6 +107,17 @@ sudo certbot renew --dry-run
 
 ---
 
+## 🏳️‍🌈 第七步：证书自动续期
+
+玄学VPS上下行加速：
+
+```
+wget https://gist.githubusercontent.com/taurusxin/a9fc3ad039c44ab66fca0320045719b0/raw/3906efed227ee14fc5b4ac8eb4eea8855021ef19/optimize.sh 
+sudo bash optimize.sh
+```
+
+---
+
 ## ✅ 总结
 
 | 工具 | 作用 |
