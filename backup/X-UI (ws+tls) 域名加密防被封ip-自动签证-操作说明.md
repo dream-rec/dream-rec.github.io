@@ -38,8 +38,9 @@ sudo certbot --nginx -d us.example.com
 ## ⚙️ 第三步：安装 Trojan 多协议面板 x-ui
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/yonggekkk/x-ui-yg/main/install.sh)
 ```
+ :star: **Tips** : 此步为最新yg大佬精简版X-UI，关于域名证书可自动一键申请，tls可自动应用证书路径，特别好评！👍 
 
 安装完成后，运行：
 
