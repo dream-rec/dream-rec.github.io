@@ -1,9 +1,9 @@
 ### Vmess
-`vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJhd3MyfG9jek0ubG92ZUB4cmF5LmNvbSIsCiAgImFkZCI6ICJtdXh1LmRwZG5zLm9yZyIsCiAgInBvcnQiOiAyMDUzLAogICJpZCI6ICJlZTcxY2FlOS1jMTc5LTRkYWEtZjdkMi1iMDA5NTRhMjVjNTgiLAogICJhaWQiOiAwLAogICJuZXQiOiAid3MiLAogICJ0eXBlIjogIm5vbmUiLAogICJob3N0IjogIm11eHUuZHBkbnMub3JnIiwKICAicGF0aCI6ICIvd3MvIiwKICAidGxzIjogInRscyIKfQ==`
+`vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJhd3MxIiwKICAiYWRkIjogIm11eHUuZHBkbnMub3JnIiwKICAicG9ydCI6IDI5NDcxLAogICJpZCI6ICI2MTRlOWQ2My1kNGUyLTRhOTAtYzg0OC1jYjFkMzgzODEzZTgiLAogICJuZXQiOiAid3MiLAogICJ0eXBlIjogIm5vbmUiLAogICJob3N0IjogIm11eHUuZHBkbnMub3JnIiwKICAicGF0aCI6ICIvNjE0ZTlkNjMiLAogICJhdXRob3JpdHkiOiAiIiwKICAidGxzIjogInRscyIsCiAgInNuaSI6ICIiLAogICJmcCI6ICIiCn0=`
 ### Vless
-`vless://6d82e7f5-19ed-4a1e-d9ff-0b9b589015ef@3.144.44.21:24162?type=ws&security=none&path=%2F6d82e7f5-19ed-4a1e-d9ff-0b9b589015ef#aws1|03Du.love@xray.com`
+`vless://0f77e51f-786f-46aa-e337-ebe41b009854@muxu.dpdns.org:23576?type=ws&security=tls&path=%2F0f77e51f&host=muxu.dpdns.org&fp=&alpn=h2%2Chttp%2F1.1#aws2`
 ### Trojan
-`trojan://YGNdDizfVV@muxu.dpdns.org:8443?type=ws&security=tls&path=%2FYGNdDizfVV&host=muxu.dpdns.org&sni=muxu.dpdns.org#aws3|KKzu.love@xray.com`
+`trojan://YGNdDizfVV@muxu.dpdns.org:8443?type=ws&security=tls&path=%2FYGNdDizfVV&host=muxu.dpdns.org&sni=muxu.dpdns.org#aws3|KKzu.love@xray.com`（已失效）
 ### CF-node
 **v2ray-CF WORKER**
 `vless://b183110c-5b46-4884-aa11-ec49354eab66@myvless-work.lmx450028818.workers.dev:443?encryption=none&security=tls&sni=myvless-work.lmx450028818.workers.dev&fp=randomized&type=ws&host=myvless-work.lmx450028818.workers.dev&path=%2F%3Fed%3D2048#myvless-work.lmx450028818.workers.dev`
@@ -32,13 +32,13 @@ _**clash 分两种内核，一种meta原生支持vless，另外一种premium，�
 **Clash(clash for windows默认是premium内核，只适用于meta内核)**
 
 **通用 Vmess/Trojan + ws + tls**
-- vmess：https://lmxxx.dpdns.org/sub?target=clash&url=vmess%3A%2F%2FewogICJ2IjogIjIiLAogICJwcyI6ICJhd3MyfG9jek0ubG92ZUB4cmF5LmNvbSIsCiAgImFkZCI6ICJtdXh1LmRwZG5zLm9yZyIsCiAgInBvcnQiOiAyMDUzLAogICJpZCI6ICJlZTcxY2FlOS1jMTc5LTRkYWEtZjdkMi1iMDA5NTRhMjVjNTgiLAogICJhaWQiOiAwLAogICJuZXQiOiAid3MiLAogICJ0eXBlIjogIm5vbmUiLAogICJob3N0IjogIm11eHUuZHBkbnMub3JnIiwKICAicGF0aCI6ICIvd3MvIiwKICAidGxzIjogInRscyIKfQ%3D%3D&insert=false
-- trojan: https://lmxxx.dpdns.org/sub?target=clash&url=trojan%3A%2F%2FYGNdDizfVV%40muxu.dpdns.org%3A8443%3Ftype%3Dws%26security%3Dtls%26path%3D%252FYGNdDizfVV%26host%3Dmuxu.dpdns.org%26sni%3Dmuxu.dpdns.org%23aws3%7CKKzu.love%40xray.com&insert=false
+- vmess：https://lmxxx.dpdns.org/sub?target=clash&url=vmess%3A%2F%2FewogICJ2IjogIjIiLAogICJwcyI6ICJhd3MxIiwKICAiYWRkIjogIm11eHUuZHBkbnMub3JnIiwKICAicG9ydCI6IDI5NDcxLAogICJpZCI6ICI2MTRlOWQ2My1kNGUyLTRhOTAtYzg0OC1jYjFkMzgzODEzZTgiLAogICJuZXQiOiAid3MiLAogICJ0eXBlIjogIm5vbmUiLAogICJob3N0IjogIm11eHUuZHBkbnMub3JnIiwKICAicGF0aCI6ICIvNjE0ZTlkNjMiLAogICJhdXRob3JpdHkiOiAiIiwKICAidGxzIjogInRscyIsCiAgInNuaSI6ICIiLAogICJmcCI6ICIiCn0%3D&insert=false
+- trojan: https://lmxxx.dpdns.org/sub?target=clash&url=trojan%3A%2F%2FYGNdDizfVV%40muxu.dpdns.org%3A8443%3Ftype%3Dws%26security%3Dtls%26path%3D%252FYGNdDizfVV%26host%3Dmuxu.dpdns.org%26sni%3Dmuxu.dpdns.org%23aws3%7CKKzu.love%40xray.com&insert=false（已失效）
 
 **Clash-vless**
 
-- 短链：https://dreammx.dpdns.org/c/SijWx0q
-- 长链-1 M内核：https://dreammx.dpdns.org/clash?config=vless%3A%2F%2F6d82e7f5-19ed-4a1e-d9ff-0b9b589015ef%403.144.44.21%3A24162%3Ftype%3Dws%26security%3Dnone%26path%3D%252F6d82e7f5-19ed-4a1e-d9ff-0b9b589015ef%23aws1%7C03Du.love%40xray.com&ua=&selectedRules=%5B%5D&customRules=%5B%5D
+- 短链：https://dreammx.dpdns.org/c/V1KYE3a
+- 长链-1 Meta内核：https://dreammx.dpdns.org/clash?config=vless%3A%2F%2F0f77e51f-786f-46aa-e337-ebe41b009854%40muxu.dpdns.org%3A23576%3Ftype%3Dws%26security%3Dtls%26path%3D%252F0f77e51f%26host%3Dmuxu.dpdns.org%26fp%3D%26alpn%3Dh2%252Chttp%252F1.1%23aws2&ua=&selectedRules=%22balanced%22&customRules=%5B%5D
 
  **Quantumult X**
 
